@@ -6,17 +6,36 @@
 
 ## Download
 
-**Latest version: v1.2** (Oct 3, 2026)
+**Latest version: v1.4** (Oct 3, 2026)
 
-- [MineRunner_v1.2.zip](https://github.com/codenomics/MineRunner/releases/download/v1.2/MineRunner_v1.2.zip) - 87 KB
+- [MineRunner_v1.4_no-install.zip](https://github.com/codenomics/MineRunner/releases/download/v1.4/MineRunner_v1.4_no-install.zip) - 91 KB
+- [MineRunner_v1.4_Setup.exe](https://github.com/codenomics/MineRunner/releases/download/v1.4/MineRunner_v1.4_Setup.exe) - 163 KB
 
-What's new in v1.2:
+What's new in v1.4:
 
-No notes for this version.
+- MineRunner now checks GitHub for a newer version when it starts; the Updates button at the bottom says "Update available" (it never pops up while you play)
+- Update now downloads and runs the new installer for you (installed copies)
+- The Updates button also checks any time, and can turn the startup check off
 
 Older versions are on the [Releases page](https://github.com/codenomics/MineRunner/releases).
 
 ## Getting started
+
+### Installer (recommended)
+
+1. Download the file ending in `_Setup.exe` above.
+2. Double-click it and click Install. It installs just for you - no admin password needed - and adds Start menu and Desktop shortcuts.
+3. To remove it later: Windows Settings > Apps, find MineRunner and click Uninstall.
+
+### No install (portable zip)
+
+1. Download the file ending in `_no-install.zip` above.
+2. Right-click it > Extract All, and pick a folder. Don't run it from inside the zip.
+3. Open the folder and double-click the app's .exe. Nothing is installed; delete the folder to remove it.
+
+Windows says "Windows protected your PC"? Click More info > Run anyway. It shows that for apps without a paid signing certificate.
+
+## More details
 
 ```
 MINERUNNER
@@ -84,6 +103,12 @@ GOOD TO KNOW
   fill in the empty spots from your own scans (click a cell to type). You
   can also test a scan number there.
 - Settings are kept in %APPDATA%\MineRunner\settings.txt.
+- Updates: when MineRunner starts it checks GitHub for a newer version (it only
+  reads the public release page; nothing is sent). It never pops up while you
+  play - the Updates button at the bottom just changes to "Update available".
+  Click it to update: with the installer it downloads and runs the new installer
+  for you, with the no-install zip it opens the download page. The same button
+  checks on demand, and can turn the startup check off.
 - If something goes wrong, MineRunner-log.txt next to MineRunner.exe says what.
 - To remove MineRunner: delete its folder, plus %APPDATA%\MineRunner.
 ```

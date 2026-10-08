@@ -6,16 +6,15 @@
 
 ## Download
 
-**Latest version: v1.4** (Oct 3, 2026)
+**Latest version: v1.5** (Oct 8, 2026)
 
-- [MineRunner_v1.4_no-install.zip](https://github.com/codenomics/MineRunner/releases/download/v1.4/MineRunner_v1.4_no-install.zip) - 91 KB
-- [MineRunner_v1.4_Setup.exe](https://github.com/codenomics/MineRunner/releases/download/v1.4/MineRunner_v1.4_Setup.exe) - 163 KB
+- [MineRunner_v1.5_no-install.zip](https://github.com/codenomics/MineRunner/releases/download/v1.5/MineRunner_v1.5_no-install.zip) - 91 KB
+- [MineRunner_v1.5_Setup.exe](https://github.com/codenomics/MineRunner/releases/download/v1.5/MineRunner_v1.5_Setup.exe) - 163 KB
+- [MineRunner_v1.5_source.zip](https://github.com/codenomics/MineRunner/releases/download/v1.5/MineRunner_v1.5_source.zip) - 85 KB
 
-What's new in v1.4:
+What's new in v1.5:
 
-- MineRunner now checks GitHub for a newer version when it starts; the Updates button at the bottom says "Update available" (it never pops up while you play)
-- Update now downloads and runs the new installer for you (installed copies)
-- The Updates button also checks any time, and can turn the startup check off
+- No app changes. Uploading Code**
 
 Older versions are on the [Releases page](https://github.com/codenomics/MineRunner/releases).
 
@@ -34,6 +33,10 @@ Older versions are on the [Releases page](https://github.com/codenomics/MineRunn
 3. Open the folder and double-click the app's .exe. Nothing is installed; delete the folder to remove it.
 
 Windows says "Windows protected your PC"? Click More info > Run anyway. It shows that for apps without a paid signing certificate.
+
+## Source code
+
+Want to see how it works, or build it yourself? Download the file ending in `_source.zip` above, extract it and double-click `Build.bat`. It only uses the C# compiler that already comes with Windows, so there is nothing to install.
 
 ## More details
 
